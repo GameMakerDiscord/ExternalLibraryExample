@@ -1,4 +1,4 @@
-# Code::Blocks project to compile a DLL for Game Maker Studio 2
+# Code::Blocks project for a DLL for Game Maker Studio 2
 
   * [Installation](#installation)
   * [Editing the project](#editing-the-project)
