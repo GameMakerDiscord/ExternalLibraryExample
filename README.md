@@ -5,27 +5,20 @@ An example project that shows how to make your own external libraries in Game Ma
 
 
 ## Supported platforms
-
-### Windows DLL
-- [Code::Blocks DLL project](src/windows/codeblocks/README.md)
-
-### HTML5 Javascript
-
-### Android Java
+* Windows DLL
+    * [Code::Blocks DLL project](src/windows/codeblocks/README.md)
 
 ## Not yet supported platforms
+* HTML5 Javascript
+* Android Java
+* Mac OS DyLib
+* Linux .so files
+* iOS Objective C
+* PlayStation PRX
+* PSVita SUPRX
 
-### Mac OS DyLib
-Not yet supported :(
+# Contributors
+[@RobQuistNL](https://github.com/RobQuistNL)
 
-### Linux .so files
-Not yet supported :(
-
-### iOS Objective C
-Not yet supported :(
-
-### PlayStation PRX
-Not yet supported :(
-
-### PSVita SUPRX
-Not yet supported :(
+# License
+[Licenced under MIT license](LICENSE)
