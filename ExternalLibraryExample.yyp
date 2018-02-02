@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "03c78632-7ad1-4566-bed9-274b95367daa",
+            "Value": {
+                "id": "b85d651c-e2c6-4efc-8a3a-95e262f85d53",
+                "resourcePath": "datafiles_yy\\ExampleDLL.dll.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1b711533-9f3c-4252-adaa-bda63dfdbc57",
+            "Value": {
+                "id": "5e59c52c-b42a-4982-be80-6efa03906587",
+                "resourcePath": "objects\\obj_windowsdll\\obj_windowsdll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1dacf0f7-5f19-431b-9abf-35d6317aec94",
             "Value": {
                 "id": "9654d965-4623-41a1-9d1f-55ba1080fcb2",
@@ -66,7 +82,7 @@
             "Key": "4c9d11c8-e5a5-4bc7-94b9-90d19f644b6f",
             "Value": {
                 "id": "e8760ce5-fec4-4f43-adc7-f7c227ffa175",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_windowsdll\\room_windowsdll.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -92,6 +108,14 @@
                 "id": "f9e4a03f-54f1-4a6e-aa68-73f5d7648de4",
                 "resourcePath": "views\\4fd9f596-747e-421c-8de9-dfad976a368a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52542f6c-ace7-4803-ac29-68f9f8f91915",
+            "Value": {
+                "id": "31762e27-ff62-4dcb-86ea-e64f151bbeed",
+                "resourcePath": "scripts\\windows_dll_number_function\\windows_dll_number_function.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -183,11 +207,43 @@
             }
         },
         {
+            "Key": "b55eca59-9e54-453c-ba97-e38ffc5dd7d4",
+            "Value": {
+                "id": "b3b298de-98a9-4055-bf62-dc56e730af7e",
+                "resourcePath": "scripts\\init_windows_dll\\init_windows_dll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bfdd3c9e-8539-4f08-957b-2ca217aa34cc",
+            "Value": {
+                "id": "8a620f7d-1422-48c8-aeb1-33fa8a11bad1",
+                "resourcePath": "views\\bfdd3c9e-8539-4f08-957b-2ca217aa34cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cafb1a8e-9678-4f2f-b74d-75c744cdf655",
+            "Value": {
+                "id": "b6904d35-b9d2-4eb8-a0fb-a2704c65e967",
+                "resourcePath": "views\\cafb1a8e-9678-4f2f-b74d-75c744cdf655.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "baf06c0b-8750-4d5c-8fc7-bfd89af0f297",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2150b26-8de4-4804-b67c-31310a169c52",
+            "Value": {
+                "id": "4edf64bb-0a68-4c0b-ae8e-c6162b0a9d8d",
+                "resourcePath": "scripts\\windows_dll_string_function\\windows_dll_string_function.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -197,10 +253,21 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "ffcf3a8b-249f-459e-b1cb-5ba97b9df320",
+            "Value": {
+                "id": "0c11b498-6fd7-4e38-bbcd-63f5dec63fbf",
+                "resourcePath": "scripts\\cleanup_windows_dll\\cleanup_windows_dll.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "b55eca59-9e54-453c-ba97-e38ffc5dd7d4",
+        "ffcf3a8b-249f-459e-b1cb-5ba97b9df320",
+        "52542f6c-ace7-4803-ac29-68f9f8f91915",
+        "d2150b26-8de4-4804-b67c-31310a169c52"
     ],
     "tutorial": ""
 }

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1517568865 source:c:\users\rob\documents\gamemakerstudio2\externallibraryexample\src\windows\codeblocks\main.cpp
+	"main.h"
+
+1517568883 c:\users\rob\documents\gamemakerstudio2\externallibraryexample\src\windows\codeblocks\main.h
+	<windows.h>
+

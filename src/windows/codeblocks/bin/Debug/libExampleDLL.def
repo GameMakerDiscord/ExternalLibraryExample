@@ -1,0 +1,3 @@
+EXPORTS
+    number_function @1
+    string_function @2
