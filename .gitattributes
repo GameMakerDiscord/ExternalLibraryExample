@@ -1,2 +1,3 @@
 *.gml linguist-language=Game Maker Language
 *.yy linguist-language=JSON
+*.yyp linguist-language=JSON
